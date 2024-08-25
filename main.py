@@ -170,7 +170,7 @@ print(topic_sep)
 is_male = True
 is_tall = True
 
-if is_male or is_tall: # using OR
+if is_male or is_tall: # using logical OR
     print ("You're maybe a tall male")
 else:
     print ("What're you?")
@@ -178,7 +178,7 @@ else:
 is_male = True
 is_tall = True
 
-if is_male and is_tall:
+if is_male and is_tall: # using logical AND
     print ("You're definetly a tall male")
 else:
     print ("What're you exactly?")
@@ -199,8 +199,15 @@ else:
 print(topic_sep)
 
 # If Statements & Comparisons
+def max_num(num1,num2,num3):
+    if num1 >= num2 and num1 >= num3 :
+        return num1
+    elif num2 >= num1 and num2 >= num3:
+        return num2
+    else:
+        return num3
 
-
+print(max_num(41,41.1,41.12))
 
 print(topic_sep)
 
