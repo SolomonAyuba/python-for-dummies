@@ -63,17 +63,29 @@ print(sqrt(36)) # square root
 print(topic_sep)
 
 # Getting Input from Users
-name = input("Enter your name: ")
-age = input("Enter your age: ")
-print("hello " + name + "!, you are " + age)
+#name = input("Enter your name: ")
+#age = input("Enter your age: ")
+#print("hello " + name + "!, you are " + age)
 
 print(topic_sep)
 
-#Building a Basic Calculator
+# Building a Basic Calculator
+num1 =  input("Enter a number: ")
+num2 =  input("Enter another number: ")
+result = int(num1) + int(num2) # whole numbers only
+print(result)
+
+num1 =  input("Enter a number: ")
+num2 =  input("Enter another number: ")
+result = float(num1) + float(num2) # decimal numbers
+print(result)
 
 print(topic_sep)
 
-#Mad Libs Game
+# Mad Libs Game
+
+
+
 print(topic_sep)
 
 #Lists
@@ -119,7 +131,7 @@ print(topic_sep)
 print(topic_sep)
 
 #Building a Translator
-print(topic_sep
+print(topic_sep)
 
 #Comments
 print(topic_sep)
