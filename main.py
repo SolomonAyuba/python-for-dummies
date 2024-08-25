@@ -70,21 +70,26 @@ print(topic_sep)
 print(topic_sep)
 
 # Building a Basic Calculator
-num1 =  input("Enter a number: ")
-num2 =  input("Enter another number: ")
-result = int(num1) + int(num2) # whole numbers only
-print(result)
+#num1 =  input("Enter a number: ")
+#num2 =  input("Enter another number: ")
+#result = int(num1) + int(num2) # whole numbers only
+#print(result)
 
-num1 =  input("Enter a number: ")
-num2 =  input("Enter another number: ")
-result = float(num1) + float(num2) # decimal numbers
-print(result)
+#um1 =  input("Enter a number: ")
+#num2 =  input("Enter another number: ")
+#result = float(num1) + float(num2) # decimal numbers
+#print(result)
 
 print(topic_sep)
 
 # Mad Libs Game
+color = input("Enter a color: ")
+plural_noun = input("Enter a plural noun: ")
+celebrity = input("Enter a celebrity: ")
 
-
+print("Roses are " + color)
+print(plural_noun + " are blue")
+print("I love " + celebrity)
 
 print(topic_sep)
 

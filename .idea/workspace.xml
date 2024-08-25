@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59bc2dc6-2a1a-4d40-b3a3-c868e1246719" name="Changes" comment="Building a basic calculator">
+    <list default="true" id="59bc2dc6-2a1a-4d40-b3a3-c868e1246719" name="Changes" comment="Mad Libs Game">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -107,7 +107,7 @@
       <updated>1724544647249</updated>
       <workItem from="1724544652514" duration="3443000" />
       <workItem from="1724549124283" duration="25000" />
-      <workItem from="1724549377367" duration="4605000" />
+      <workItem from="1724549377367" duration="5155000" />
     </task>
     <task id="LOCAL-00001" summary="Genesis 1">
       <option name="closed" value="true" />
@@ -149,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724575805026</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Mad Libs Game">
+      <option name="closed" value="true" />
+      <created>1724576287603</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724576287603</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,9 +168,10 @@
     <MESSAGE value="Working with numbers" />
     <MESSAGE value="Getting input from users" />
     <MESSAGE value="Building a basic calculator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Building a basic calculator" />
+    <MESSAGE value="Mad Libs Game" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mad Libs Game" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pythonfordummies$main.coverage" NAME="main Coverage Results" MODIFIED="1724576257921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonfordummies$main.coverage" NAME="main Coverage Results" MODIFIED="1724576730667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
