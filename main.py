@@ -125,7 +125,8 @@ lucky_numbers.sort(), print(lucky_numbers)
 print(friends.reverse()), print(friends) # Reverses the list's order.
 lucky_numbers.reverse(), print(lucky_numbers)
 
-friends2 = friends.copy(), print(friends2) # copies list
+friends2 = friends.copy()
+print(friends2) # copies list to another variable
 
 print(topic_sep)
 
