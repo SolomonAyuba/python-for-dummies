@@ -211,7 +211,22 @@ print(max_num(41,41.1,41.12))
 
 print(topic_sep)
 
-#Building a better Calculator
+# Building a better Calculator
+num1 = float(input("Enter first number: "))
+operator = input("Enter an operator: ")
+num2 = float(input("Enter second number: "))
+
+if operator == "+":
+    print(num1 + num2)
+elif operator == "-":
+    print (num1 - num2)
+elif operator == "*":
+    print(num1 * num2)
+elif operator == "/":
+    print(num1 / num2)
+else:
+    print("Invalid operator")
+
 print(topic_sep)
 
 #Dictionaries
