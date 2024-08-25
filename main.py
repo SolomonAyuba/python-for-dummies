@@ -83,20 +83,50 @@ print(topic_sep)
 print(topic_sep)
 
 # Mad Libs Game
-color = input("Enter a color: ")
-plural_noun = input("Enter a plural noun: ")
-celebrity = input("Enter a celebrity: ")
+#color = input("Enter a color: ")
+#plural_noun = input("Enter a plural noun: ")
+#celebrity = input("Enter a celebrity: ")
 
-print("Roses are " + color)
-print(plural_noun + " are blue")
-print("I love " + celebrity)
+#print("Roses are " + color)
+#print(plural_noun + " are blue")
+#print("I love " + celebrity)
 
 print(topic_sep)
 
-#Lists
+# Lists
+friends = ["Kevin", "Kloe", "Kim", "Kris", "Kagan", "klaus"]
+print(friends)
+friends[4] = "Kunle" # modifiy objects in the list.
+print(friends[0]) # prints first object in the list
+print(friends[-1]) # prints last object in the list
+print(friends[1:]) # prints from second object to the last
+print(friends[2:5]) #  prints range of elements
+
 print(topic_sep)
 
-#List Functions
+# List Functions
+lucky_numbers = [4, 8, 15, 16, 23, 42, 1, 0, 6]
+friends = ["Kevin", "Kloe", "Kim", "Kris", "Kagan", "klaus", "Kunle", "NA", "NA", "NA"]
+friends.extend(lucky_numbers) # append one list to another
+friends.append("Konga") # append an object to the list's end
+friends.insert(1, "kelly") # inset an object to a specific index in the list
+friends.remove("Kim") #remove specific element on the list
+#friends.clear() # clears entire list
+friends.pop() # removes the last element in the list
+print(friends)
+
+print(friends.index("Kunle")) # checking if specific element is in the list.
+print(friends.count("NA")) # counts the object's number of occurence
+
+friends = ["Kevin", "Chloe", "Kim", "Cris", "Kagan", "Bobby", "Kunle"]
+print(friends.sort()), print(friends) # sort list in alphabetical order
+lucky_numbers.sort(), print(lucky_numbers)
+
+print(friends.reverse()), print(friends) # Reverses the list's order.
+lucky_numbers.reverse(), print(lucky_numbers)
+
+friends2 = friends.copy(), print(friends2) # copies list
+
 print(topic_sep)
 
 #Tuples
