@@ -253,7 +253,14 @@ print(monthConversions.get("Jab", "Not a valid key "))
 
 print(topic_sep)
 
-#While Loop
+# While Loop
+i = 1
+while i <= 10:
+    print(i)
+    i += 1
+
+print("Done with loop")
+
 print(topic_sep)
 
 #Building a Guessing Game
