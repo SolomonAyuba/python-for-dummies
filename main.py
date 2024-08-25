@@ -63,7 +63,92 @@ print(sqrt(36)) # square root
 print(topic_sep)
 
 # Getting Input from Users
-
-
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+print("hello " + name + "!, you are " + age)
 
 print(topic_sep)
+
+#Building a Basic Calculator
+
+print(topic_sep)
+
+#Mad Libs Game
+print(topic_sep)
+
+#Lists
+print(topic_sep)
+
+#List Functions
+print(topic_sep)
+
+#Tuples
+print(topic_sep)
+
+#Functions
+print(topic_sep)
+
+#Return Statement
+print(topic_sep)
+
+#If Statements
+print(topic_sep)
+
+#If Statements & Comparisons
+print(topic_sep)
+
+#Building a better Calculator
+print(topic_sep)
+
+#Dictionaries
+print(topic_sep)
+
+#While Loop
+print(topic_sep)
+
+#Building a Guessing Game
+print(topic_sep)
+
+#For Loops
+print(topic_sep)
+
+#Exponent Function
+print(topic_sep)
+
+#2D Lists & Nested Loops
+print(topic_sep)
+
+#Building a Translator
+print(topic_sep
+
+#Comments
+print(topic_sep)
+
+#Try / Except
+print(topic_sep)
+
+#Reading Files
+print(topic_sep)
+
+#Writing to Files
+print(topic_sep)
+
+#Modules & Pip
+print(topic_sep)
+
+#Classes & Objects
+print(topic_sep)
+
+#Building a Multiple Choice Quiz
+print(topic_sep)
+
+#Object Functions
+print(topic_sep)
+
+#Inheritance
+print(topic_sep)
+
+#Python Interpreter
+print(topic_sep)
+
+
