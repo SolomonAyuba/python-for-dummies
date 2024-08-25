@@ -48,4 +48,22 @@ print(my_num)
 print(str(my_num)) # converting number to string
 print(str(my_num) + " is my favourite number") # concatenating number and string
 
+abs_num = -10
+print(abs(abs_num)) # absolute value function
+print(pow(2,6)) # power function
+print(max(10,100)) # maximum number
+print(min(10,100)) # minimum number function
+print(round(3.456))  # round up function
+
+from math import *  # importing external math function into out file
+print(floor(33.7)) # round down
+print(ceil(33.7))  # round up
+print(sqrt(36)) # square root
+
+print(topic_sep)
+
+# Getting Input from Users
+
+
+
 print(topic_sep)
