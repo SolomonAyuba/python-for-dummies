@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59bc2dc6-2a1a-4d40-b3a3-c868e1246719" name="Changes" comment="List Functions">
+    <list default="true" id="59bc2dc6-2a1a-4d40-b3a3-c868e1246719" name="Changes" comment="Tuples">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -107,7 +107,7 @@
       <updated>1724544647249</updated>
       <workItem from="1724544652514" duration="3443000" />
       <workItem from="1724549124283" duration="25000" />
-      <workItem from="1724549377367" duration="13244000" />
+      <workItem from="1724549377367" duration="14175000" />
     </task>
     <task id="LOCAL-00001" summary="Genesis 1">
       <option name="closed" value="true" />
@@ -181,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724598332195</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Tuples">
+      <option name="closed" value="true" />
+      <created>1724606042231</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1724606042231</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,9 +203,10 @@
     <MESSAGE value="Mad Libs Game" />
     <MESSAGE value="Lists" />
     <MESSAGE value="List Functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="List Functions" />
+    <MESSAGE value="Tuples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tuples" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pythonfordummies$main.coverage" NAME="main Coverage Results" MODIFIED="1724605329407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonfordummies$main.coverage" NAME="main Coverage Results" MODIFIED="1724606704454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

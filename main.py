@@ -141,7 +141,18 @@ print(coordinates[2])
 
 print(topic_sep)
 
-#Functions
+# Functions
+def say_hi():
+    print("Hello earthling, this is a function")
+
+say_hi() #calling the function
+
+def say_hi(name, age): # using parameters in function
+    print("Hello " +name + " are you " + str(age) + "?")
+
+say_hi("Jake", 22)
+say_hi("Oba", 42)
+
 
 print(topic_sep)
 
