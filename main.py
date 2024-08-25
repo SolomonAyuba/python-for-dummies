@@ -130,10 +130,19 @@ print(friends2) # copies list to another variable
 
 print(topic_sep)
 
-#Tuples
+# Tuples
+# A type of data structure. A Container where we can save different values. Different from a list
+coordinates = (4,5)
+print(coordinates[0])
+# Tuples vs Lists
+# Tuples are immutable unlike lists
+coordinates = [(4,5), (6,7), (80,43)]
+print(coordinates[2])
+
 print(topic_sep)
 
 #Functions
+
 print(topic_sep)
 
 #Return Statement
