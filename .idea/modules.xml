@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/pythonfordummies.iml" filepath="$PROJECT_DIR$/.idea/pythonfordummies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/python-for-dummies.iml" filepath="$PROJECT_DIR$/.idea/python-for-dummies.iml" />
     </modules>
   </component>
 </project>
