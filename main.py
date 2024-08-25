@@ -166,10 +166,42 @@ print(result)
 
 print(topic_sep)
 
-#If Statements
+# If Statements
+is_male = True
+is_tall = True
+
+if is_male or is_tall: # using OR
+    print ("You're maybe a tall male")
+else:
+    print ("What're you?")
+
+is_male = True
+is_tall = True
+
+if is_male and is_tall:
+    print ("You're definetly a tall male")
+else:
+    print ("What're you exactly?")
+
+# else if
+is_male = True
+is_tall = False
+
+if is_male and is_tall:
+    print ("You're a tall male")
+elif is_male and not(is_tall):
+    print("You're a short male")
+elif not(is_male) and is_tall:
+    print("You're some tall earthling ")
+else:
+    print ("What're you exactly?")
+
 print(topic_sep)
 
-#If Statements & Comparisons
+# If Statements & Comparisons
+
+
+
 print(topic_sep)
 
 #Building a better Calculator
