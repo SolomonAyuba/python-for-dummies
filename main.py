@@ -153,10 +153,17 @@ def say_hi(name, age): # using parameters in function
 say_hi("Jake", 22)
 say_hi("Oba", 42)
 
-
 print(topic_sep)
 
-#Return Statement
+# Return Statement
+def cube(num):
+    return num*num*num
+
+print(cube(3)) # print the return result
+
+result = cube(2) # another way to print the return result
+print(result)
+
 print(topic_sep)
 
 #If Statements
