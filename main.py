@@ -212,24 +212,45 @@ print(max_num(41,41.1,41.12))
 print(topic_sep)
 
 # Building a better Calculator
-num1 = float(input("Enter first number: "))
-operator = input("Enter an operator: ")
-num2 = float(input("Enter second number: "))
+#num1 = float(input("Enter first number: "))
+#operator = input("Enter an operator: ")
+#num2 = float(input("Enter second number: "))
 
-if operator == "+":
-    print(num1 + num2)
-elif operator == "-":
-    print (num1 - num2)
-elif operator == "*":
-    print(num1 * num2)
-elif operator == "/":
-    print(num1 / num2)
-else:
-    print("Invalid operator")
+#if operator == "+":
+#    print(num1 + num2)
+#elif operator == "-":
+#    print (num1 - num2)
+#elif operator == "*":
+#    print(num1 * num2)
+#elif operator == "/":
+#    print(num1 / num2)
+#else:
+#    print("Invalid operator")
 
-print(topic_sep)
+#print(topic_sep)
 
-#Dictionaries
+# Dictionaries
+# A special structure in python which allows us to store information in what are called the Key Value Pairs
+
+monthConversions = {
+    "Jan": "January",
+    "Feb": "February",
+    "Mar": "March",
+    "Apr": "April",
+    "May": "May",
+    "Jun": "June",
+    "Jul": "July",
+    "Aug": "August",
+    "Sep": "September",
+    "Oct": "October",
+    "Nov": "November",
+    "Dec": "December"
+}
+
+print(monthConversions["Jan"])
+print(monthConversions.get("Jul"))
+print(monthConversions.get("Jab", "Not a valid key "))
+
 print(topic_sep)
 
 #While Loop
