@@ -317,10 +317,21 @@ for index in range(5):
 
 print(topic_sep)
 
-#Exponent Function
+# Exponent Function
+print(2**3)
+
+def raise_to_power(base_num, pow_num):
+    result = 1
+    for index in range(pow_num):
+        result = result * base_num
+    return result
+
+print(raise_to_power(5, 3))
+
 print(topic_sep)
 
-#2D Lists & Nested Loops
+# 2D Lists & Nested Loops
+
 print(topic_sep)
 
 #Building a Translator
