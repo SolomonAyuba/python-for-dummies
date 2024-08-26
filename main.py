@@ -274,27 +274,45 @@ print(topic_sep)
 # print("You win! Secret word is \"" + secret_word + "\" ")
 
 #advanced version
-secret_word = "wiseman"
-guess = ""
-guess_count = 0
-guess_limit = 4
-out_of_guesses = False
+# secret_word = "wiseman"
+# guess = ""
+# guess_count = 0
+# guess_limit = 4
+# out_of_guesses = False
 
-while guess != secret_word and not(out_of_guesses):
-    if guess_count < guess_limit:
-        guess = input("Guess the secret word: ")
-        guess_count += 1
-    else:
-        out_of_guesses = True
+# while guess != secret_word and not(out_of_guesses):
+#     if guess_count < guess_limit:
+#         guess = input("Guess the secret word: ")
+#         guess_count += 1
+#     else:
+#         out_of_guesses = True
 
-if out_of_guesses:
-    print("Sorry, you're out of guesses!")
-else:
-    print("You win! Secret word is \"" + secret_word + "\" ")
+# if out_of_guesses:
+#     print("Sorry, you're out of guesses!")
+# else:
+#     print("You win! Secret word is \"" + secret_word + "\" ")
 
-print(topic_sep)
+# print(topic_sep)
 
 # FOR Loops
+for letter in "The Alpha Univas LTD":
+    print(letter)
+
+friends = ["Bola", "Jake", "Toph"]
+for friend in friends:
+    print(friend)
+
+for index in range(3, 10):
+    print(index)
+
+for index in range(len(friends)):
+    print(friends[index])
+
+for index in range(5):
+    if index == 0:
+        print(index, "First iteration.")
+    else:
+        print(index, "not first iterations")
 
 
 print(topic_sep)
