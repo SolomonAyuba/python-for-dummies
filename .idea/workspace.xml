@@ -56,7 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1724629938403</updated>
       <workItem from="1724629939416" duration="76000" />
-      <workItem from="1724630024042" duration="9580000" />
+      <workItem from="1724630024042" duration="9714000" />
     </task>
     <task id="LOCAL-00001" summary="Building a Guessing Game">
       <option name="closed" value="true" />
@@ -74,7 +74,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724631647009</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="FOR Loops">
+      <option name="closed" value="true" />
+      <created>1724710064579</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724710064579</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
