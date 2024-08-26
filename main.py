@@ -331,6 +331,17 @@ print(raise_to_power(5, 3))
 print(topic_sep)
 
 # 2D Lists & Nested Loops
+number_grid = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9],
+    [0]
+]
+print(number_grid[0][0])
+
+for row in number_grid:
+    for col in row:
+        print(row, col)
 
 print(topic_sep)
 

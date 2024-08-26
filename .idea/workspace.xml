@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac8bc057-3e94-4114-9210-4477e43eac26" name="Changes" comment="FOR Loops">
+    <list default="true" id="ac8bc057-3e94-4114-9210-4477e43eac26" name="Changes" comment="Exponents Function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -56,7 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1724629938403</updated>
       <workItem from="1724629939416" duration="76000" />
-      <workItem from="1724630024042" duration="9714000" />
+      <workItem from="1724630024042" duration="11152000" />
     </task>
     <task id="LOCAL-00001" summary="Building a Guessing Game">
       <option name="closed" value="true" />
@@ -82,7 +82,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724710064579</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Exponents Function">
+      <option name="closed" value="true" />
+      <created>1724710117871</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724710117871</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,9 +99,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Building a Guessing Game" />
     <MESSAGE value="FOR Loops" />
-    <option name="LAST_COMMIT_MESSAGE" value="FOR Loops" />
+    <MESSAGE value="Exponents Function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exponents Function" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_for_dummies$main.coverage" NAME="main Coverage Results" MODIFIED="1724709895157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_for_dummies$main.coverage" NAME="main Coverage Results" MODIFIED="1724713245065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
