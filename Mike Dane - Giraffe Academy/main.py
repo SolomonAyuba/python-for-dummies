@@ -262,7 +262,7 @@ print(monthConversions.get("Jab", "Not a valid key "))
 
 print(topic_sep)
 
-# While Loop
+# While Loop k
 i = 1
 while i <= 10:
     print(i)
