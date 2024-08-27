@@ -452,18 +452,23 @@ print(topic_sep)
 
 # Writing to Files
 employee_file = open("employees.txt", "a") #w overwrite the entire file. "a" writes to the end of info on the file.
-
 employee_file.write("\nRichard - Human Resource")
-
 employee_file.close()
 
+print(topic_sep)
+
+# Modules & Pip
+#modules - external files that you can import to other python files
+#pip-  aka package manager used to install, manage, update and uninstall different python modules
+
+import useful_tools
+print(useful_tools.roll_dice(6))
 
 print(topic_sep)
 
-#Modules & Pip
-print(topic_sep)
+# Classes & Objects
 
-#Classes & Objects
+
 print(topic_sep)
 
 #Building a Multiple Choice Quiz
