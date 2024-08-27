@@ -62,36 +62,42 @@ print(sqrt(36)) # square root
 
 print(topic_sep)
 
+'''
 # Getting Input from Users
-#name = input("Enter your name: ")
-#age = input("Enter your age: ")
-#print("hello " + name + "!, you are " + age)
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+print("hello " + name + "!, you are " + age)
 
 print(topic_sep)
+'''
 
+'''
 # Building a Basic Calculator
-#num1 =  input("Enter a number: ")
-#num2 =  input("Enter another number: ")
-#result = int(num1) + int(num2) # whole numbers only
-#print(result)
+num1 =  input("Enter a number: ")
+num2 =  input("Enter another number: ")
+result = int(num1) + int(num2) # whole numbers only
+print(result)
 
-#um1 =  input("Enter a number: ")
-#num2 =  input("Enter another number: ")
-#result = float(num1) + float(num2) # decimal numbers
-#print(result)
+num1 =  input("Enter a number: ")
+num2 =  input("Enter another number: ")
+result = float(num1) + float(num2) # decimal numbers
+print(result)
 
 print(topic_sep)
+'''
 
+'''
 # Mad Libs Game
-#color = input("Enter a color: ")
-#plural_noun = input("Enter a plural noun: ")
-#celebrity = input("Enter a celebrity: ")
+color = input("Enter a color: ")
+plural_noun = input("Enter a plural noun: ")
+celebrity = input("Enter a celebrity: ")
 
-#print("Roses are " + color)
-#print(plural_noun + " are blue")
-#print("I love " + celebrity)
+print("Roses are " + color)
+print(plural_noun + " are blue")
+print("I love " + celebrity)
 
 print(topic_sep)
+'''
 
 # Lists
 friends = ["Kevin", "Kloe", "Kim", "Kris", "Kagan", "klaus"]
@@ -211,23 +217,26 @@ print(max_num(41,41.1,41.12))
 
 print(topic_sep)
 
+
+'''
 # Building a better Calculator
-#num1 = float(input("Enter first number: "))
-#operator = input("Enter an operator: ")
-#num2 = float(input("Enter second number: "))
+num1 = float(input("Enter first number: "))
+operator = input("Enter an operator: ")
+num2 = float(input("Enter second number: "))
 
-#if operator == "+":
-#    print(num1 + num2)
-#elif operator == "-":
-#    print (num1 - num2)
-#elif operator == "*":
-#    print(num1 * num2)
-#elif operator == "/":
-#    print(num1 / num2)
-#else:
-#    print("Invalid operator")
+if operator == "+":
+    print(num1 + num2)
+elif operator == "-":
+    print (num1 - num2)
+elif operator == "*":
+    print(num1 * num2)
+elif operator == "/":
+    print(num1 / num2)
+else:
+    print("Invalid operator")
 
-#print(topic_sep)
+print(topic_sep)
+'''
 
 # Dictionaries
 # A special structure in python which allows us to store information in what are called the Key Value Pairs
@@ -263,36 +272,39 @@ print("Done with loop")
 
 print(topic_sep)
 
+'''
 # Building a Guessing Game
-#simple
-# secret_word = "wiseman"
-# guess = ""
+#simple version
+ secret_word = "wiseman"
+ guess = ""
 
-# while guess != secret_word:
-#    guess = input("Guess the secret word: ")
+ while guess != secret_word:
+    guess = input("Guess the secret word: ")
 
-# print("You win! Secret word is \"" + secret_word + "\" ")
+ print("You win! Secret word is \"" + secret_word + "\" ")
 
 #advanced version
-# secret_word = "wiseman"
-# guess = ""
-# guess_count = 0
-# guess_limit = 4
-# out_of_guesses = False
+ secret_word = "wiseman"
+ guess = ""
+ guess_count = 0
+ guess_limit = 4
+ out_of_guesses = False
 
-# while guess != secret_word and not(out_of_guesses):
-#     if guess_count < guess_limit:
-#         guess = input("Guess the secret word: ")
-#         guess_count += 1
-#     else:
-#         out_of_guesses = True
+while guess != secret_word and not(out_of_guesses):
+     if guess_count < guess_limit:
+         guess = input("Guess the secret word: ")
+         guess_count += 1
+     else:
+         out_of_guesses = True
 
-# if out_of_guesses:
-#     print("Sorry, you're out of guesses!")
-# else:
-#     print("You win! Secret word is \"" + secret_word + "\" ")
+ if out_of_guesses:
+     print("Sorry, you're out of guesses!")
+ else:
+     print("You win! Secret word is \"" + secret_word + "\" ")
 
-# print(topic_sep)
+ print(topic_sep)
+'''
+
 
 # FOR Loops
 for letter in "The Alpha Univas LTD":
@@ -330,6 +342,7 @@ print(raise_to_power(5, 3))
 
 print(topic_sep)
 
+
 # 2D Lists & Nested Loops
 number_grid = [
     [1,2,3],
@@ -345,6 +358,7 @@ for row in number_grid:
 
 print(topic_sep)
 
+'''
 # Building a Translator
 def translate(phrase):
     translation = ""
@@ -372,8 +386,21 @@ def translate(phrase):
 print(translate(input("Enter a phrase: ")))
 
 print(topic_sep)
+'''
 
-#Comments
+# Comments
+# This is a comment 🙄
+
+'''
+This is another way to make multiple line comment
+'''
+
+# the official python way to make multiple line comment
+# is using the hash sign in multiple
+# lines
+
+print("comments are fun")
+
 print(topic_sep)
 
 #Try / Except
