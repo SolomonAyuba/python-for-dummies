@@ -403,7 +403,34 @@ print("comments are fun")
 
 print(topic_sep)
 
-#Try / Except
+# Try / Except
+try:
+    number = int(input("Enter a number: "))
+    print(number)
+except ValueError:
+    print("Invalid input")
+
+#e.g II
+try:
+    value = 10 / 0
+    number = int(input("Enter a number: "))
+    print(number)
+except ZeroDivisionError:
+    print("Can't divide by zero")
+except ValueError:
+    print("Invalid Error")
+
+#e.g III
+try:
+    value = 10 / 0
+    number = int(input("Enter a number: "))
+    print(number)
+except ZeroDivisionError as err:
+    print(err)
+except ValueError as err:
+    print(err)
+
+
 print(topic_sep)
 
 #Reading Files
