@@ -450,7 +450,14 @@ employee_file.close()
 
 print(topic_sep)
 
-#Writing to Files
+# Writing to Files
+employee_file = open("employees.txt", "a") #w overwrite the entire file. "a" writes to the end of info on the file.
+
+employee_file.write("\nRichard - Human Resource")
+
+employee_file.close()
+
+
 print(topic_sep)
 
 #Modules & Pip
