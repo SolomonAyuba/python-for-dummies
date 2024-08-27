@@ -468,6 +468,12 @@ print(topic_sep)
 
 # Classes & Objects
 
+from Student import Student
+
+student1 = Student("Kimberly", "Medicine", 4.7, False)
+student2 = Student("Jake", "Music", 2.5, True)
+
+print(student1.name)
 
 print(topic_sep)
 

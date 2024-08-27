@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac8bc057-3e94-4114-9210-4477e43eac26" name="Changes" comment="Readme content update" />
+    <list default="true" id="ac8bc057-3e94-4114-9210-4477e43eac26" name="Changes" comment="Beginners Full Course">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Mike Dane - Giraffe Academy/Student.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Mike Dane - Giraffe Academy/Student.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Mike Dane - Giraffe Academy/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Mike Dane - Giraffe Academy/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +34,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.app.executor": "Run",
     "Python.backup.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -66,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1724629938403</updated>
       <workItem from="1724629939416" duration="76000" />
-      <workItem from="1724630024042" duration="23950000" />
+      <workItem from="1724630024042" duration="25204000" />
     </task>
     <task id="LOCAL-00001" summary="Building a Guessing Game">
       <option name="closed" value="true" />
@@ -180,7 +185,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724774398024</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Readme content update">
+      <option name="closed" value="true" />
+      <created>1724774509881</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1724774509881</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Beginners Full Course">
+      <option name="closed" value="true" />
+      <created>1724774603515</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1724774603515</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,12 +218,13 @@
     <MESSAGE value="Reading Files" />
     <MESSAGE value="Writing to Files" />
     <MESSAGE value="Modules &amp; Pip" />
-    <MESSAGE value="Beginners Full Course" />
     <MESSAGE value="Readme content update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Readme content update" />
+    <MESSAGE value="Beginners Full Course" />
+    <option name="LAST_COMMIT_MESSAGE" value="Beginners Full Course" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_for_dummies$main.coverage" NAME="main Coverage Results" MODIFIED="1724773332799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mike Dane - Giraffe Academy" />
+    <SUITE FILE_PATH="coverage/python_for_dummies$app.coverage" NAME="app Coverage Results" MODIFIED="1724775413875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1. Mike Dane - Giraffe Academy" />
+    <SUITE FILE_PATH="coverage/python_for_dummies$main.coverage" NAME="main Coverage Results" MODIFIED="1724775500321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1. Mike Dane - Giraffe Academy" />
     <SUITE FILE_PATH="coverage/python_for_dummies$backup.coverage" NAME="backup Coverage Results" MODIFIED="1724773340873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mike Dane - Giraffe Academy" />
   </component>
 </project>
