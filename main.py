@@ -403,6 +403,7 @@ print("comments are fun")
 
 print(topic_sep)
 
+'''
 # Try / Except
 try:
     number = int(input("Enter a number: "))
@@ -430,10 +431,23 @@ except ZeroDivisionError as err:
 except ValueError as err:
     print(err)
 
-
 print(topic_sep)
+'''
 
-#Reading Files
+# Reading Files
+
+employee_file = open("employees.txt", "r")
+
+print(employee_file.readable()) # check if a file is readable
+#print(employee_file.read()) # reads/displays the content of a file
+#print(employee_file.readline()) # reads the first line of a file
+#print(employee_file.readlines()) # reads multiple lines of a file
+#print(employee_file.readlines()[2]) # converts file lines to list and reads specific line index-
+
+for employee in employee_file.readlines():
+    print(employee)
+employee_file.close()
+
 print(topic_sep)
 
 #Writing to Files
